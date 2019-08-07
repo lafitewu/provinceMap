@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>地图demo</title>
+</head>
+<style>
+    .main {
+       width: 1200px;
+       height: 335px;
+       background: red;
+       margin: auto; 
+    }
+    .map {
+        float: right;
+        width: 375px;
+        height: 335px;
+        background: #F1F3F4;
+    }
+        .map img {
+            width: 282px;
+            height: 310px;
+            margin-left: 10%;
+            margin-top: 2.5%;
+        }
+    map area{ outline: none; }
+</style>
+<body>
+    <div class="main">
+        <div class="map">
+            <img src="./images/map.png" border="0" usemap="#planetmap" alt="Planets" />
+        </div>
+        <map name="planetmap" id="planetmap">
+            <area shape="rect" coords="32,69,75,94" href ="http://www.baidu.com" target="_blank" alt="吉首市" />
+            <area shape="rect" coords="73,33,117,54" href ="http://www.sohu.com" target="_blank" alt="张家界" />
+            <area shape="rect" coords="135,34,175,64" href ="http://www.jingdong.com" target="_blank" alt="常德市" />
+            <area shape="rect" coords="41,133,92,158" href ="http://www.jingdong.com" target="_blank" alt="怀化市" />
+            <area shape="rect" coords="134,93,184,106" href ="http://www.jingdong.com" target="_blank" alt="益阳市" />
+            <area shape="rect" coords="116,124,163,146" href ="http://www.jingdong.com" target="_blank" alt="娄底市" />
+            <area shape="rect" coords="86,168,128,192" href ="http://www.jingdong.com" target="_blank" alt="邵阳市" />
+            <area shape="rect" coords="131,215,176,276" href ="http://www.jingdong.com" target="_blank" alt="永州市" />
+            <area shape="rect" coords="188,231,257,264" href ="http://www.jingdong.com" target="_blank" alt="郴州市" />
+            <area shape="rect" coords="172,171,220,215" href ="http://www.jingdong.com" target="_blank" alt="衡阳市" />
+            <area shape="rect" coords="176,128,215,153" href ="http://www.jingdong.com" target="_blank" alt="湘潭市" />
+            <area shape="rect" coords="203,101,259,122" href ="http://www.jingdong.com" target="_blank" alt="长沙市" />
+            <area shape="rect" coords="216,50,258,87" href ="http://www.jingdong.com" target="_blank" alt="岳阳市" />
+            <area shape="rect" coords="223,132,257,186" href ="http://www.jingdong.com" target="_blank" alt="株洲市" />
+        </map>
+    </div>
+</body>
+</html>
